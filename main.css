@@ -78,7 +78,7 @@
 	position: relative;
 	background-color: white;
 	top: 30px;
-	margin-bottom: 50px;
+	
 
 
 }
@@ -110,20 +110,28 @@
 
 
   #main{
- 	background:rgb(206, 214, 226); 
+ 	background:#f0f1f2; 
  	position: relative;
  	margin-top: 0px;
- 	padding-top: 0px;
- 	bottom: 0px;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	bottom: 40px;
+ }
+ .pad{
+ 	
+ 	background:#f0f1f2; 
  }
  .main2{
- 	background-color: rgb(230, 236, 247);
+ 	position: relative;
+ 	padding-top: 60px;
+ 	background-color: #f7f8fa;
  }
-
+ 
  .side-bar{
  	
- 	padding: 60px;
+ 	padding: 60px 20px 60px 20px;
  	height: 500px;
+
 
  }
  .side-bar-tab{
@@ -136,7 +144,65 @@
    color: rgba(0,0,0,0.5);
    text-decoration: none;
  }
-
  .main-bar{
+ 	padding: 60px;
+ }
+
+ .main-bar-tab{
+ 	background: white;
+ 	position: relative;
+ 	margin: 0px 20px 40px 20px;
+ 	padding: 20px;
+ 	border:solid 1px #dbdcdd;
+ }
+ .main-bar-tab a li{
+ 	color: rgb(0,0,5);
+ 	list-style: none;
+ }
+
+ .main-bar-tab a:hover li{
+ 	color: rgb(0,0,5);
  	
  }
+ .placeholder-small{
+ 	height:35px;
+ 	border-radius: 50%;
+ 	float: left;
+ 	display: inline-block;
+ 	margin-right: 10px;
+ }
+ .vediosec{
+ 	padding-top: 60px;
+ 	padding-bottom: 60px;
+
+ }
+ .vediosec-vedio{
+ 	height: 117px;
+ 	width: 207px;
+ 	border: solid 1px #dbdcdd;
+ 	background-color: black 
+ }
+.brdr{
+	border-bottom: solid 1px #dbdcdd;
+ 	border-top: solid 1px #dbdcdd;
+}
+.extra{
+	
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer{
+	background-color:rgb(20,42,102);
+	color: white;
+}
+footer li{
+	list-style: none;
+}
+footer a{
+	color: white;
+}
+footer .row{
+	padding-top: 50px;
+}

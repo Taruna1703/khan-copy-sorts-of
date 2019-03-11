@@ -6,14 +6,10 @@ function scrollFunction() {
     document.getElementById("navbar2").style.padding = "2px 0px 0px 0px";
     document.getElementById("navbar2").style.position = "fixed";
     document.getElementById("navbar2").style.top = "0px";
-    document.getElementById("nav-heading").add(".nav-heading-visibility");
-    document.getElementById("nav-heading1").remove(".nav-heading-visibility");
     
   } else {
     document.getElementById("navbar2").style.padding = "20px 0px 20px 0px";
     document.getElementById("navbar2").style.position = "relative";
-    document.getElementById("nav-heading1").add(".nav-heading-visibility");
-    document.getElementById("nav-heading").remove(".nav-heading-visibility");
      }
 }
 $( window ).scroll(function() {
