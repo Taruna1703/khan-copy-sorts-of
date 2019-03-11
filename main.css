@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .logoSvg_4pwcjq {
     width: 200px !important;
     fill: currentColor !important;
@@ -26,6 +29,9 @@
   position: ;
   width: 100%;
   z-index: 99;
+}
+.upprbrdr{
+	border: solid 1px white;
 }
 #my-part ul li a{
 	color: white!important;
@@ -128,7 +134,7 @@
  }
  
  .side-bar{
- 	
+ 	overflow: auto;
  	padding: 60px 20px 60px 20px;
  	height: 500px;
 
@@ -145,7 +151,9 @@
    text-decoration: none;
  }
  .main-bar{
+ 	overflow: scroll;
  	padding: 60px;
+ 	height: 800px;
  }
 
  .main-bar-tab{
