@@ -1,0 +1,142 @@
+.logoSvg_4pwcjq {
+    width: 200px !important;
+    fill: currentColor !important;
+    justify-content: center!important;
+    position: relative;
+    right: 200px!important;
+}
+.nav{
+	padding-bottom: 10px!important;
+}
+.nav :hover{
+	background-color: rgb(255,255,255);
+}
+.nav-form{
+	opacity: 1 !important;
+}
+.my-hr{
+	position: relative;
+	margin-top: 1px;
+}
+#navbar2 {
+  overflow: hidden;
+  background-color: rgb(20,42,102);
+  padding: 20px;
+  transition: 0.4s;
+  position: ;
+  width: 100%;
+  z-index: 99;
+}
+#my-part ul li a{
+	color: white!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255,255,255);
+}
+
+#navbar2 a{
+  
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+#navbar2 h1{
+	color: white!important;
+	font-size: 40px;
+}
+
+#navbar2 #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar2 a:hover {
+    color: rgb(192, 205, 224);
+}
+
+#nav-heading1{
+	color: white;
+    position: relative;
+   left: 400px;
+}
+.nav-heading-visibility{
+	visibility: hidden;
+	display: none;
+}
+@media (max-width: 893px) { 
+   nav .navbar .container #my-part ul .navbar-nav li a .nav-link{
+   	display: none!important;
+   }
+}
+
+.section-heading{
+	position: relative;
+	background-color: white;
+	top: 30px;
+	margin-bottom: 50px;
+
+
+}
+.placeholder-large{
+	height: 80%;
+	border-radius: 50%;
+	position: relative;
+	top: 10%;
+
+}
+.secwrap{
+	position: relative;
+	top: 20%;
+}
+.secbdiv{
+	position: relative;
+}
+.secb{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.sech3{
+	color: #007bff;
+}
+
+
+  #main{
+ 	background:rgb(206, 214, 226); 
+ 	position: relative;
+ 	margin-top: 0px;
+ 	padding-top: 0px;
+ 	bottom: 0px;
+ }
+ .main2{
+ 	background-color: rgb(230, 236, 247);
+ }
+
+ .side-bar{
+ 	
+ 	padding: 60px;
+ 	height: 500px;
+
+ }
+ .side-bar-tab{
+ 	padding-bottom: 20px;
+ }
+ .side-bar-tab a{
+   color: black;
+ }
+ .side-bar-tab a:hover{
+   color: rgba(0,0,0,0.5);
+   text-decoration: none;
+ }
+
+ .main-bar{
+ 	
+ }
