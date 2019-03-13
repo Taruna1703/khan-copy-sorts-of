@@ -2,17 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 .logoSvg_4pwcjq {
-    width: 290px !important;
-    height: 45px;
+    width: 200px !important;
     fill: currentColor !important;
     justify-content: center!important;
     position: relative;
-    right: 150px!important;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(255,255,255);
-    font-size: 18px;
+    right: 200px!important;
 }
 .nav{
 	padding-bottom: 10px!important;
@@ -157,7 +151,7 @@ html {
    text-decoration: none;
  }
  .main-bar{
- 	overflow: scroll;
+ 	overflow: auto;
  	height: 500px;
  }
 
